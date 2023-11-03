@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gradient{
+        background: linear-gradient(45deg, #f4350a, #3151f2);
+        -webkit-background-clip: text; 
+        background-clip: text;
+        color: transparent;
+        font-weight: bold;   
+}
+
+.style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+   background-color: #212122;
+}
+
+.textarea{
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #F5EEC8;
+    padding: 10px;
+}
+    
+.button{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #dfd7d7;
+    font-size: 15px;
+}
