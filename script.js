@@ -6,7 +6,7 @@ buto.addEventListener("click", ()=>{
     speechSynthesis.speak(voice)
     if(text.value.length <= 0){
       let wrongMessage= document.getElementById('error')
-      wrongMessage.textContent='Add some text Data!'
+      wrongMessage.textContent='Add Text Data!'
     }else{
         let wrongMessage= document.getElementById('error')
         wrongMessage.textContent=''
